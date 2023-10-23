@@ -1,0 +1,41 @@
+/* Portfolio.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 ;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .mainContent {
+    width: 1000px;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .dark {
+    background-color: #000;
+    color: #ffffff;
+  }
+  
+  .lighten {
+    background-color: #ffffff;
+    color: #101010;
+  }
+  

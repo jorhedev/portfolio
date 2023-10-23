@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 800px;
+    
+}
+
+.info h1{
+    letter-spacing: 5px;
+    font-weight: 800;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.dato{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 800px;
+    gap: 50px;
+
+}
+
+.datoName{
+    display: flex;
+    justify-content: flex-start;
+    min-width: 200px;
+    text-transform: uppercase;
+}
+
+.datoName h2{
+    letter-spacing: 2px;
+    font-weight: 900;
+
+}
+
+.datoInfo{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+}
+
+.datoInfo h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.datoInfo h4{
+    margin: 0;
+    font-weight: 700;
+
+}
+
+.datoInfo h3{
+    margin-bottom: 10px;
+    font-weight: 800; 
+}
+
+.datoInfo p{
+    margin: 0;
+    width: 100%;
+    font-weight: 300;
+
+}
+
+.dark {
+    color: #ffffff;
+  }
+  
+  .lighten {
+    color: #101010;
+  }
+  
