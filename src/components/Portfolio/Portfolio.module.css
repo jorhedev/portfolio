@@ -62,7 +62,7 @@
   .infoText {
     margin-top: 600px;
     position: absolute;
-    z-index: 1; /* Asegura que el texto esté encima de la imagen */
+    z-index: 5; /* Asegura que el texto esté encima de la imagen */
     text-align: center; /* Centra el texto horizontalmente */
   }
   
