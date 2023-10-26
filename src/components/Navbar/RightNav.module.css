@@ -1,0 +1,25 @@
+/* RightNav.module.css */
+.ul {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #ddd;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.li {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.a {
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: MontBold;
+}

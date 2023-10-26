@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-  background: linear-gradient(transparent, #00ccff);
+  background: linear-gradient(transparent, #ffffff);
   border-radius: 6px;
 }
 

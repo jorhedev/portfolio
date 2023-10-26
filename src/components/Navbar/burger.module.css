@@ -1,0 +1,34 @@
+/* Burger.module.css */
+.styledBurger {
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 35px;
+    right: 50px;
+    z-index: 200;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
+  
+  .styledBurger div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #fff;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+  }
+  
+  .styledBurger div:nth-child(1) {
+    transform: rotate(0);
+  }
+  
+  .styledBurger div:nth-child(2) {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .styledBurger div:nth-child(3) {
+    transform: rotate(0);
+  }
+  

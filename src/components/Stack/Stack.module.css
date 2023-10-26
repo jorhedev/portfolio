@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.textStack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.textStack h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: MontHeavy;
+    margin: 0;
+}
+
+.textStack p{
+    font-size: 22px;
+    margin: 0;
+    width: 100%;
+    font-family: MontSemi;
+    text-align: center;
+    margin-top: 40px;
+    color: #9a9a9a;
+}
+
+.stackIcons{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Dos columnas de igual anchura */
+    grid-gap: 20px; /* Espacio entre las tarjetas */
+
+}
+
+.iconCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconCard h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+   font-size: 60px;
+   margin: 0;
+}

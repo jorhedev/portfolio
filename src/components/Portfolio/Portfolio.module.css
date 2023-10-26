@@ -2,28 +2,88 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     margin: 0 ;
     transition: background-color 0.3s, color 0.3s;
   }
   
-  header {
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+
+  }
+
+  .header{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 700px;
   }
-  
-  button {
-    padding: 10px;
-    cursor: pointer;
+
+  .header img{
+    width: 700px;
   }
-  
-  .mainContent {
+
+  .headerText{
+    display: flex;
+    flex-direction: column;
     width: 1000px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    font-family: MontBold;
+    text-transform: capitalize;
+  }
+
+  .headerText h3{
+    color: #9a9a9a;
+    line-height: 70px;
+    font-size: 53px
+  }
+
+  .headerText h2{
+    margin: 0;
+    line-height: 0;
+    font-size: 80px
+  }
+
+  .infoMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
   }
   
+  .infoText {
+    margin-top: 600px;
+    position: absolute;
+    z-index: 1; /* Asegura que el texto esté encima de la imagen */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .infoText h1 {
+    font-family: MontHeavy;
+    font-size: 80px;
+    margin: 0;
+  }
+  
+  .infoText h2 {
+    text-transform: uppercase;
+    font-family: MontBold;
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 5px;
+  }
+  
+  .infoMe img {
+    width: 800px;
+  }
+
   footer {
     margin-top: 40px;
     text-align: center;
@@ -38,4 +98,13 @@
     background-color: #ffffff;
     color: #101010;
   }
-  
+
+
+  [data-aos] {
+    pointer-events: none;
+
+  }
+
+  [data-aos] {
+    z-index: 1; /* Ajusta el valor de z-index según tus necesidades */
+  }
