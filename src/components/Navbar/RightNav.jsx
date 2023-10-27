@@ -44,6 +44,8 @@ const RightNav = ({ open }) => {
       <li><a href="#about">Sobre Mi</a></li>
       <li><a href="#technologies">Tecnologías</a></li>
       <li><a href="#education">Educación</a></li>
+      <li><a href="/projects">Portafolio</a></li>
+
     </Ul>
   )
 }

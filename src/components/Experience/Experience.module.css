@@ -94,3 +94,29 @@
     color: #101010;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .info h1 {
+      font-size: 30px;
+    }
+  
+    .datoName h2 {
+      font-size: 16px;
+    }
+  
+    .datoInfo h2 {
+      font-size: 16px;
+    }
+  
+    .datoInfo h4 {
+      font-size: 14px;
+    }
+  
+    .datoInfo h3 {
+      font-size: 16px;
+    }
+  
+    .datoInfo p {
+      font-size: 14px;
+    }
+  }

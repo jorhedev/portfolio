@@ -55,3 +55,17 @@
    font-size: 60px;
    margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .textStack h1 {
+      font-size: 30px;
+    }
+  
+    .textStack p {
+      font-size: 16px;
+    }
+  
+    .iconCard h4 {
+      font-size: 30px;
+    }
+  }

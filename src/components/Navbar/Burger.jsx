@@ -6,10 +6,10 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 35px;
+  top: 25px;
   right: 50px;
   z-index: 1000;
-
+  cursor: pointer;
 
     display: flex;
     justify-content: space-around;

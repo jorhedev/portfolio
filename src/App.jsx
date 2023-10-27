@@ -4,6 +4,7 @@ import { useState } from "react";
 import './App.css'
 
 import Portfolio from './components/Portfolio/Portfolio';
+import Projects from './views/Projects/Projects';
 
 function App() {
 
@@ -20,6 +21,10 @@ function App() {
         path="/"
         element={<Portfolio darkMode={darkMode} setDarkMode={handleModeToggle} />}
       />    
+          <Route
+        path="/projects"
+        element={<Projects darkMode={darkMode} setDarkMode={handleModeToggle} />}
+      />
     </Routes>
       
     </>

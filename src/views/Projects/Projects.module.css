@@ -1,0 +1,317 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+.about h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: MontHeavy;
+    font-size: 45px;
+    margin: 0;
+}
+
+.about h2{
+    width: 800px;
+    text-align: center;
+    font-family: MontBold;
+    font-size: 28px;
+    margin-top: 40px;
+    color: #9a9a9a;
+}
+
+.botones{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.botones a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap: 5px;
+}
+
+.botones a h4{
+    font-size: 18px;
+    font-family: MontSemi;
+    margin: 0;
+    line-height: 0;
+}
+
+.botones a h3{
+    font-family: MontSemi;
+    font-size: 28px;
+    margin: 0;
+    line-height: 0;
+}
+
+.botones a{
+    cursor: pointer;
+}
+
+.proContain{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual anchura */
+    grid-gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.cardPro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+.cardPro img{
+    display: flex;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.cardPro:hover img {
+    filter: blur(2px); /* Aplica un desenfoque a la imagen al hacer hover */
+  }
+  
+  .cardContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background-color: #00000092;
+  }
+
+  .cardContent h3{
+    font-size: 28px;
+    font-family: MontHeavy;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  .cardContent p{
+    width: 250px;
+    padding: 8px;
+    font-size: 12px;
+    font-family: MontSemi;
+    letter-spacing: 2px;
+  }
+
+  .cardPro:hover .cardContent {
+    opacity: 1; /* Muestra el contenido al hacer hover */
+  }
+
+  
+.botones{
+    margin-top: 30px;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.botones a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.botones a h4{
+    font-size: 16px;
+    font-family: MontSemi;
+    margin: 0;
+    line-height: 0;
+}
+
+.botones a h3{
+    font-family: MontSemi;
+    font-size: 20px;
+    margin: 0;
+    line-height: 0;
+}
+
+.botones a{
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/gf.gif');
+    background-size:cover; 
+  }
+
+  footer h1{
+    font-family: MontHeavy;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Ajusta los valores de sombra según tus preferencias */
+    letter-spacing: 5px;
+  }
+
+  footer h3{
+    font-family: MontLight;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores de sombra según tus preferencias */
+
+  }
+
+  footer h2{
+    font-family: MontBold;
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .footerP{
+    font-family: MontLight;
+    color: #9a9a9a;
+  }
+
+
+
+.dark {
+    background-color: #000;
+    color: #ffffff;
+  }
+  
+  .lighten {
+    background-color: #ffffff;
+    color: #101010;
+  }
+
+
+  [data-aos] {
+    pointer-events: none;
+
+  }
+
+  [data-aos] {
+    z-index: 1; /* Ajusta el valor de z-index según tus necesidades */
+  }
+
+  /* Para dispositivos móviles */
+@media (max-width: 768px) {
+  .about {
+    width: 90%;
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about h2 {
+    font-size: 18px;
+  }
+
+  .proContain {
+    grid-template-columns: 1fr; /* Cambia a una sola columna en dispositivos móviles */
+  }
+
+  .cardPro {
+    width: 100%;
+    height: 300px;
+  }
+
+  .cardPro img {
+    min-width: 100%;
+    min-height: 300px;
+  }
+
+  .cardContent {
+    width: 100%;
+    height: 300px;
+  }
+
+  footer h1 {
+    font-size: 40px;
+  }
+
+  footer h2 {
+    font-size: 24px;
+  }
+
+  footer h3 {
+    font-size: 18px;
+  }
+}
+
+/* Para tablets */
+@media (max-width: 1024px) {
+  .about {
+    width: 90%;
+  }
+
+  .about h1 {
+    font-size: 40px;
+  }
+
+  .about h2 {
+    font-size: 22px;
+  }
+
+  .proContain {
+    grid-template-columns: repeat(1, 1fr); /* Cambia a una sola columna en tablets */
+  }
+
+  .cardPro {
+    width: 100%;
+    height: 350px;
+  }
+
+  .cardPro img {
+    min-width: 100%;
+    min-height: 350px;
+  }
+
+  .cardContent {
+    width: 100%;
+    height: 350px;
+  }
+
+  footer h1 {
+    font-size: 50px;
+  }
+
+  footer h2 {
+    font-size: 28px;
+  }
+
+  footer h3 {
+    font-size: 20px;
+  }
+}
