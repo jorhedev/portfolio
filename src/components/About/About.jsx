@@ -8,7 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // Importar los estilos de AOS
 
 const About = () => {
-
   useEffect(() => {
     AOS.init({
       offset: 50, // Desplazamiento después del cual se activará la animación (en píxeles)
@@ -28,18 +27,30 @@ const About = () => {
           a la vez visualmente impactantes. Trabajemos juntos para llevar tu
           proyecto al siguiente nivel en el mundo digital.
         </h2>
-        <div className={style.botones} >
+        <div className={style.botones}>
           <Link to="https://github.com/jorhedev" target="_blank">
-          <h4 data-aos="fade-up">GitHub</h4>  <h3 data-aos="fade-up"><FiGithub /></h3> 
+            <h4 data-aos="fade-up">GitHub</h4>{" "}
+            <h3 data-aos="fade-up">
+              <FiGithub />
+            </h3>
           </Link>
           <Link to="https://www.linkedin.com/in/hijorhe/" target="_blank">
-          <h4 data-aos="fade-up">LinkedIn</h4>  <h3 data-aos="fade-up"><AiOutlineLinkedin /></h3> 
+            <h4 data-aos="fade-up">LinkedIn</h4>{" "}
+            <h3 data-aos="fade-up">
+              <AiOutlineLinkedin />
+            </h3>
           </Link>
           <Link to="/projects">
-          <h4 data-aos="fade-up">Portafolio</h4>  <h3 data-aos="fade-up"><FiGrid /></h3> 
+            <h4 data-aos="fade-up">Portafolio</h4>{" "}
+            <h3 data-aos="fade-up">
+              <FiGrid />
+            </h3>
           </Link>
-          <a href="src/assets/JORGE_TOLENTINO_CV.pdf" download="JORGE_TOLENTINO_CV.pdf">
-          <h4 data-aos="fade-up">Descargar CV</h4>  <h3 data-aos="fade-up"><HiOutlineFolderDownload /></h3> 
+          <a href="https://drive.google.com/uc?export=download&id=1QD-O5_SU3wPTAm1dQNI0pZbVWA3ovDJZ">
+            <h4 data-aos="fade-up">Descargar CV</h4>{" "}
+            <h3 data-aos="fade-up">
+              <HiOutlineFolderDownload />
+            </h3>
           </a>
         </div>
       </div>
@@ -47,8 +58,6 @@ const About = () => {
   );
 };
 
-
 export default About;
-
 
 // href={require("../assets/cv.pdf").default} download="cv.pdf"
