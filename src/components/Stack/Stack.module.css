@@ -57,6 +57,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  
+.textStack{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
     .textStack h1 {
       font-size: 30px;
     }

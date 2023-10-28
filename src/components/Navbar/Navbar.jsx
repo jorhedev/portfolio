@@ -19,6 +19,7 @@ const Navbar = ({ handleModeToggle, darkMode }) => {
       {/* <button onClick={handleModeToggle}>
         {darkMode ? "Dark Mode" : "Light Mode"}
       </button> */}
+      {/* <div className={styles.menu}></div> */}
       <Burger/>
     </div>
   );

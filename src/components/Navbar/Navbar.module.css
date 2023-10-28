@@ -1,4 +1,5 @@
 
+
   
   .nav {
     position: fixed;
@@ -25,11 +26,7 @@
     text-decoration: none;
     left: 50px;
   }
-  
-  button {
-    padding: 10px;
-    cursor: pointer;
-  }
+
 
   .dark {
     background-color: #000;
@@ -44,7 +41,7 @@
   @media screen and (max-width: 768px) {
 
     .nav{
-      position: fixead;
+      width: 100%;
     }
     .nav a {
       left: 40px;
