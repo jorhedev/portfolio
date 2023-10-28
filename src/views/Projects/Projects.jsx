@@ -60,8 +60,8 @@ const Projects = ({ darkMode }) => {
               <FiGrid />
             </h3>
           </Link> */}
-<a href="src\assets\JORGE_TOLENTINO_CV.pdf" download>            
-<h4 data-aos="fade-up">Descargar CV</h4>{" "}
+          <a href="src\assets\JORGE_TOLENTINO_CV.pdf" download>
+            <h4 data-aos="fade-up">Descargar CV</h4>{" "}
             <h3 data-aos="fade-up">
               <HiOutlineFolderDownload />
             </h3>
@@ -74,7 +74,10 @@ const Projects = ({ darkMode }) => {
               <h3>SNKRS</h3>
               <p>Descripción detallada o contenido adicional aquí.</p>
               <div className={styles.botones}>
-                <Link to="https://github.com/jorhedev/snkrs_front" target="_blank">
+                <Link
+                  to="https://github.com/jorhedev/snkrs_front"
+                  target="_blank"
+                >
                   <h4>GitHub</h4>{" "}
                   <h3>
                     <FiGithub />
@@ -95,7 +98,10 @@ const Projects = ({ darkMode }) => {
               <h3>POKEAPI</h3>
               <p>Descripción detallada o contenido adicional aquí.</p>
               <div className={styles.botones}>
-                <Link to="https://github.com/jorhedev/pokemon_jorhe" target="_blank">
+                <Link
+                  to="https://github.com/jorhedev/pokemon_jorhe"
+                  target="_blank"
+                >
                   <h4>GitHub</h4>{" "}
                   <h3>
                     <FiGithub />
@@ -116,13 +122,19 @@ const Projects = ({ darkMode }) => {
               <h3>NOON</h3>
               <p>Descripción detallada o contenido adicional aquí.</p>
               <div className={styles.botones}>
-                <Link to="https://github.com/jorhedev/noon_landing" target="_blank">
+                <Link
+                  to="https://github.com/jorhedev/noon_landing"
+                  target="_blank"
+                >
                   <h4>GitHub</h4>{" "}
                   <h3>
                     <FiGithub />
                   </h3>
                 </Link>
-                <Link to="https://noon-landing-three.vercel.app" target="_blank">
+                <Link
+                  to="https://noon-landing-three.vercel.app"
+                  target="_blank"
+                >
                   <h4>Deploy</h4>{" "}
                   <h3>
                     <GoRocket />
@@ -158,7 +170,10 @@ const Projects = ({ darkMode }) => {
               <h3>Rick & Morty</h3>
               <p>Descripción detallada o contenido adicional aquí.</p>
               <div className={styles.botones}>
-                <Link to="https://github.com/jorhedev/rick_and_morty" target="_blank">
+                <Link
+                  to="https://github.com/jorhedev/rick_and_morty"
+                  target="_blank"
+                >
                   <h4>GitHub</h4>{" "}
                   <h3>
                     <FiGithub />
@@ -179,13 +194,19 @@ const Projects = ({ darkMode }) => {
               <h3>Portfolio</h3>
               <p>Descripción detallada o contenido adicional aquí.</p>
               <div className={styles.botones}>
-                <Link to="https://github.com/jorhedev/portfolio" target="_blank">
+                <Link
+                  to="https://github.com/jorhedev/portfolio"
+                  target="_blank"
+                >
                   <h4>GitHub</h4>{" "}
                   <h3>
                     <FiGithub />
                   </h3>
                 </Link>
-                <Link to="https://portfolio-jorhedev.vercel.app" target="_blank">
+                <Link
+                  to="https://portfolio-jorhedev.vercel.app"
+                  target="_blank"
+                >
                   <h4>Deploy</h4>{" "}
                   <h3>
                     <GoRocket />
