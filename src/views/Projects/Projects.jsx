@@ -60,7 +60,7 @@ const Projects = ({ darkMode }) => {
               <FiGrid />
             </h3>
           </Link> */}
-          <a href="src\assets\JORGE_TOLENTINO_CV.pdf" download>
+          <a href="src/assets/JORGE_TOLENTINO_CV.pdf" download>
             <h4 data-aos="fade-up">Descargar CV</h4>{" "}
             <h3 data-aos="fade-up">
               <HiOutlineFolderDownload />
