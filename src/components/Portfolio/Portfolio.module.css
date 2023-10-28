@@ -20,6 +20,29 @@
   justify-content: center;
   align-items: center;
   height: 700px;
+  flex-direction: column;
+}
+
+.header h2{
+  margin-top: -15px;
+}
+.header h2 a{
+  margin-top: -15px;
+  font-size: 50px;
+  line-height: 0;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.header h5 a{
+  text-decoration: none;
+  color: white;
+  font-family: MontLight;
+  font-size: 25px;
+  line-height: 0;
+  margin: 0;
+  line-height: 0;
 }
 
 .header img {
@@ -140,9 +163,10 @@ footer h2 {
   z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .container {
-    padding: 0 20px;
+    width: 100%;
+
   }
   .mainContent {
     width: 100%;
@@ -153,42 +177,6 @@ footer h2 {
   .header img {
     width: 100%;
   }
-  .headerText {
-    width: 100%;
-  }
-  .headerText h3 {
-    line-height: 40px;
-    font-size: 30px;
-  }
-  .headerText h2 {
-    font-size: 50px;
-  }
-  .infoMe {
-    height: 700px;
-  }
-  .infoText {
-    margin-top: 400px;
-  }
-  .infoMe img {
-    width: 80%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .infoText h1 {
-    font-size: 60px;
-  }
-  .infoText h2 {
-    font-size: 20px;
-  }
-  .infoMe img {
-    width: 90%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 480px) {
   .headerText h3 {
     line-height: 30px;
     font-size: 20px;
@@ -196,23 +184,30 @@ footer h2 {
   .headerText h2 {
     font-size: 30px;
   }
+  .infoText {
+    margin-top: 350px;
+  }
   .infoText h1 {
     font-size: 40px;
   }
   .infoText h2 {
     font-size: 18px;
   }
+  footer {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+  }
   .footer h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
   .footer h3 {
-    font-size: 16px;
+    font-size: 14px;
     padding: 3px;
   }
-  .footer h2 {
-    font-size: 30px;
-  }
+
   .footerP {
     font-size: 14px;
   }
@@ -221,3 +216,4 @@ footer h2 {
     height: auto;
   }
 }
+

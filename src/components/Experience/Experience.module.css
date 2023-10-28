@@ -83,7 +83,7 @@
     width: 100%;
     font-weight: 300;
     font-family: MontSemi;
-
+    color: #9a9a9a;
 }
 
 .dark {
@@ -98,14 +98,38 @@
   @media screen and (max-width: 768px) {
     .info h1 {
       font-size: 30px;
+      margin: 0;
     }
   
+
+    .dato{
+      flex-direction: column;
+      width: 300px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+    }
+
+    .datoName {
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
     .datoName h2 {
       font-size: 16px;
+      margin: 0;
     }
   
+    .datoInfo{
+      justify-content: center;
+      align-items: center;
+    }
+
     .datoInfo h2 {
       font-size: 16px;
+      text-align: center;
     }
   
     .datoInfo h4 {
@@ -114,9 +138,13 @@
   
     .datoInfo h3 {
       font-size: 16px;
+      text-align: center;
+
     }
   
     .datoInfo p {
       font-size: 14px;
+      text-align: center;
+
     }
   }

@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Importar los estilos de AOS
 
+import { PiCaretDoubleDown } from "react-icons/pi";
 import gif from "../../assets/4dv1.gif";
 import me from "../../assets/me2.png";
 
@@ -39,8 +40,11 @@ const Portfolio = ({ darkMode, setDarkMode }) => {
       <div className={styles.mainContent} id="home">
         <div className={styles.header}>
           <img src={gif} alt="" />
+          <h5><a href="#down">Explora</a></h5>
+          <h2><a href="#down"><PiCaretDoubleDown/></a></h2>
+          
         </div>
-        <div className={`${styles.headerText}`} data-aos="fade-up">
+        <div id="down" className={`${styles.headerText}`} data-aos="fade-up">
           <h3 data-aos="fade-up">Construyendo experiencias </h3>
           <h2 data-aos="fade-up">digitales a medida.</h2>
         </div>
@@ -52,7 +56,6 @@ const Portfolio = ({ darkMode, setDarkMode }) => {
 
           <img src={me} alt="" data-aos="fade-up" />
         </div>
-
 
         <About/>
         <Stack id="technologies"/>

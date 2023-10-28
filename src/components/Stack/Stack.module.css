@@ -62,10 +62,17 @@
     }
   
     .textStack p {
-      font-size: 16px;
+      width: 300px;
+      font-size: 14px;
+    }
+    .stackIcons{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* Dos columnas de igual anchura */
+      justify-content: center;
+      align-items: center;
     }
   
     .iconCard h4 {
-      font-size: 30px;
+      font-size: 35px;
     }
   }

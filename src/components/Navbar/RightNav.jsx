@@ -36,16 +36,24 @@ z-index: 999;
 
   
 `;
+import { useLocation } from 'react-router-dom';
 
 const RightNav = ({ open }) => {
+  const location = useLocation();
+
   return (
     <Ul open={open}>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">Sobre Mi</a></li>
-      <li><a href="#technologies">Tecnologías</a></li>
-      <li><a href="#education">Educación</a></li>
-      <li><a href="/projects">Portafolio</a></li>
-
+      {location.pathname === '/projects' ? (
+        <li><a href="/#home">Home</a></li>
+      ) : (
+        <div>
+          <li><a href="/#home">Home</a></li>
+          <li><a href="/#about">Sobre Mi</a></li>
+          <li><a href="/#technologies">Tecnologías</a></li>
+          <li><a href="/#education">Educación</a></li>
+          <li><a href="/projects">Portafolio</a></li>
+        </div>
+      )}
     </Ul>
   )
 }

@@ -38,3 +38,13 @@
     color: #101010;
   }
   
+  @media screen and (max-width: 768px) {
+
+    .nav{
+      position: fixead;
+    }
+    .nav a {
+      left: 40px;
+      font-size: 30px;
+    }
+  }
