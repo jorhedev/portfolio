@@ -38,7 +38,7 @@ const About = () => {
           <Link to="/projects">
           <h4 data-aos="fade-up">Portafolio</h4>  <h3 data-aos="fade-up"><FiGrid /></h3> 
           </Link>
-          <a href="src/assets/JORGE_TOLENTINO_CV.pdf" download>
+          <a href="src/assets/JORGE_TOLENTINO_CV.pdf" download="JORGE_TOLENTINO_CV.pdf">
           <h4 data-aos="fade-up">Descargar CV</h4>  <h3 data-aos="fade-up"><HiOutlineFolderDownload /></h3> 
           </a>
         </div>
