@@ -72,7 +72,7 @@ const Projects = ({ darkMode }) => {
             <img src={snkrs} alt="" />
             <div className={styles.cardContent}>
               <h3>SNKRS</h3>
-              <p>Descripción detallada o contenido adicional aquí.</p>
+              {/* <p>Descripción detallada o contenido adicional aquí.</p> */}
               <div className={styles.botones}>
                 <Link
                   to="https://github.com/jorhedev/snkrs_front"
@@ -96,7 +96,7 @@ const Projects = ({ darkMode }) => {
             <img src={poke} alt="" />
             <div className={styles.cardContent}>
               <h3>POKEAPI</h3>
-              <p>Descripción detallada o contenido adicional aquí.</p>
+              {/* <p>Descripción detallada o contenido adicional aquí.</p> */}
               <div className={styles.botones}>
                 <Link
                   to="https://github.com/jorhedev/pokemon_jorhe"
@@ -120,7 +120,7 @@ const Projects = ({ darkMode }) => {
             <img src={noon} alt="" />
             <div className={styles.cardContent}>
               <h3>NOON</h3>
-              <p>Descripción detallada o contenido adicional aquí.</p>
+              {/* <p>Descripción detallada o contenido adicional aquí.</p> */}
               <div className={styles.botones}>
                 <Link
                   to="https://github.com/jorhedev/noon_landing"
@@ -147,7 +147,7 @@ const Projects = ({ darkMode }) => {
             <img src={nasa} alt="" />
             <div className={styles.cardContent}>
               <h3>NASA-API</h3>
-              <p>Descripción detallada o contenido adicional aquí.</p>
+              {/* <p>Descripción detallada o contenido adicional aquí.</p> */}
               <div className={styles.botones}>
                 <Link to="https://github.com/jorhedev/nasaAPI" target="_blank">
                   <h4>GitHub</h4>{" "}
@@ -168,7 +168,7 @@ const Projects = ({ darkMode }) => {
             <img src={rick} alt="" />
             <div className={styles.cardContent}>
               <h3>Rick & Morty</h3>
-              <p>Descripción detallada o contenido adicional aquí.</p>
+              {/* <p>Descripción detallada o contenido adicional aquí.</p> */}
               <div className={styles.botones}>
                 <Link
                   to="https://github.com/jorhedev/rick_and_morty"
@@ -192,7 +192,7 @@ const Projects = ({ darkMode }) => {
             <img src={port} alt="" />
             <div className={styles.cardContent}>
               <h3>Portfolio</h3>
-              <p>Descripción detallada o contenido adicional aquí.</p>
+              {/* <p>Descripción detallada o contenido adicional aquí.</p> */}
               <div className={styles.botones}>
                 <Link
                   to="https://github.com/jorhedev/portfolio"
