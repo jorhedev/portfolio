@@ -221,7 +221,7 @@ const Projects = ({ darkMode }) => {
         <h1 data-aos="fade-up">Trabajemos juntos.</h1>
         {/* <h2>México</h2> */}
         <h3 data-aos="fade-up">hijorhe@gmail.com</h3>
-        <h3 data-aos="fade-up">+52 771 288 7372</h3>
+        <h3 data-aos="fade-up">+52 56 5268 6325</h3>
       </footer>
       <p className={styles.footerP}>&copy; 2023 Jorhe</p>
     </div>
