@@ -3,6 +3,7 @@
 // Componente Portfolio.jsx
 import styles from "./Portfolio.module.css";
 import Experience from "../Experience/Experience";
+import Jobs from "../Jobs/Jobs";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Importar los estilos de AOS
@@ -60,6 +61,7 @@ const Portfolio = ({ darkMode, setDarkMode }) => {
         <About/>
         <Stack id="technologies"/>
         <Experience/>
+        <Jobs/>
       </div>
       <footer>
         <h1 data-aos="fade-up">Trabajemos juntos.</h1>

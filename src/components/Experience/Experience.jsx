@@ -26,7 +26,7 @@ const Experience = () => {
 
           <div className={style.datoInfo}>
 
-          <h2 data-aos="fade-up">Henry</h2>
+          {/* <h2 data-aos="fade-up">Henry</h2>
             <h4 data-aos="fade-up">2023</h4>
             <h3 data-aos="fade-up">Full Stack Developer</h3>
             <p data-aos="fade-up">
@@ -37,7 +37,7 @@ const Experience = () => {
             </p>
 
             <br />
-            <br />
+            <br /> */}
 
              
             <h2 data-aos="fade-up">Instituto Tecnológico de Pachuca</h2>
